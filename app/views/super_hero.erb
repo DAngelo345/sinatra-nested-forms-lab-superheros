@@ -1,6 +1,19 @@
 
-<h1>Display your Super Hero here</h1>
+<h1>Flatiron</h1>
 
-<h3>Name: <%= @team.name %></h3><br>
-<h4>Weight: <%= @team.power %></h4><br>
-<h4>Height: <%= @team.biography %></h4><br>
+<p><h2>Team Motto: <%= @team[:motto] %></h2></p><br>
+<p><h2>Team Name: <%= @team[:name] %></h2></p><br>
+<p><h2>Hero Name: <%= @members[0][:name] %></p></h2></p><br>
+<h3>Hero Power: <%= @members[0][:power]%></h3><br>
+<p><h3>Hero Biography: <%= @members[0][:biography]%></h4></p><br>
+
+<p><h2>Hero Name: <%= @members[1][:name] %></p></h2></p><br>
+<h3>Hero Power: <%= @members[1][:power]%></h3><br>
+<p><h3>Hero Biography: <%= @members[1][:biography]%></h4></p><br>
+
+<p><h2>Hero Name: <%= @members[2][:name] %></p></h2></p><br>
+<h3>Hero Power: <%= @members[2][:power]%></h3><br>
+<p><h3>Hero Biography: <%= @members[2][:biography]%></h4></p><br>
+
+
+
